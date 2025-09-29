@@ -3,7 +3,8 @@
   display:flex;
   flex-direction: row;
   margin: 2vh auto;
-  border: 2px solid black;
+    border:1px solid black;
+  background-color: aliceblue;
   width:min(90%,890px);
   gap:2vh;
 }
@@ -16,4 +17,17 @@ p{
 
 .foto img{
   width: 100%;;
+}
+
+@media (max-width:800px){
+  :host{
+    flex-direction: column;
+  }
+  .foto{
+    width:30%;
+    margin: auto auto;
+  }
+  h2{
+    text-align: center;
+  }
 }

@@ -1,0 +1,27 @@
+:host{
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img{
+  flex-basis: 40%;
+  overflow:hidden;
+}
+
+img{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+h3{
+  text-align: center;
+  flex-basis: 10%;
+}
+p{
+  padding: 1vh;
+  text-align: justify;
+}

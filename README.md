@@ -1,5 +1,13 @@
 # DioAngularBlog
 
+Este é o projeto desenvolvido para o bootcamp DecolaTech 2025 da Avanade.
+
+Esse projeto é o portfólio do Alan Turing.
+
+![computador](1.png)
+
+![celular](2.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
 
 ## Development server

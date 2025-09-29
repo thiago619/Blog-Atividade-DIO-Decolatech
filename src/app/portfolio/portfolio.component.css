@@ -1,0 +1,17 @@
+:host{
+  display:block;
+  width:min(90%,890px);
+  margin:1vh auto;
+  padding:2vh;
+  border:1px solid black;
+  background-color: aliceblue;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 3vh;
+}
+
+h2{
+  text-align: center;
+}
