@@ -1,0 +1,19 @@
+:host{
+  padding:2vh;
+  display:flex;
+  flex-direction: row;
+  margin: 2vh auto;
+  border: 2px solid black;
+  width:min(90%,890px);
+  gap:2vh;
+}
+p{
+  text-align: justify;
+}
+.foto{
+  flex-basis: 25%;
+}
+
+.foto img{
+  width: 100%;;
+}
